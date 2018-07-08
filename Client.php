@@ -1,5 +1,7 @@
 <?php 
 
+include 'coureirInterface.php';
+
 
 # User's Class containing two main methods as per the task's request 
 class Client()

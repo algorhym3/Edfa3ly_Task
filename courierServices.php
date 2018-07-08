@@ -16,7 +16,7 @@ class companyX_courierService()
     private $trackingDetails
 
     # $interfaceX is the class containing the API calls 
-    public function __construct(Interface $interfaceX) {}
+    public function __construct(apiInterface $interfaceX) {}
     
     # contains related methods to create a shipment
     public function createShipmentAndGetWayBill()
@@ -47,7 +47,7 @@ class companyY_courierService()
     private $orderID
     private $trackingDetails
 
-    public function __construct(Interface $interfaceY) {}
+    public function __construct(apiInterface $interfaceY) {}
     
     public function createShipmentAndGetWayBill()
     {
@@ -77,7 +77,7 @@ class companyY_courierService()
     private $orderID
     private $trackingDetails
 
-    public function __construct(Interface $interfaceZ) {}
+    public function __construct(apiInterface $interfaceZ) {}
     
     public function createShipmentAndGetWayBill()
     {
@@ -104,7 +104,7 @@ class courierServiceL()
     private $orderID
     private $trackingDetails
 
-    public function __construct(Interface $interfaceX) {}
+    public function __construct(apiInterface $interfaceX) {}
     
         public function createShipmentAndGetWayBill()
         {
